@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class DuplicateDifference {
-
     public static int findDuplicateDifference(int[] A) {
         for (int i = 0; i < A.length; i++) {
             for (int j = i + 1; j < A.length; j++) {
@@ -12,7 +10,6 @@ public class DuplicateDifference {
         }
         return -1; 
     }
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int   n = scanner.nextInt();
